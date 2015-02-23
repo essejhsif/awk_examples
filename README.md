@@ -7,7 +7,7 @@ A collection of awk / sed examples
 - [Basic awk & sed](#basic-awk--sed)
 - [sort, uniq, cut, etc.](#sort-uniq-cut-etc)
 - [Other generally useful aliases for your .bashrc](#other-generally-useful-aliases-for-your-bashrc)
-
+- [Basic awk & sed Overview](http://www-users.york.ac.uk/~mijp1/teaching/2nd_year_Comp_Lab/guides/grep_awk_sed.pdf)
 
 ## Basic awk & sed
 [[back to top](#contents)]
