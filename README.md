@@ -17,6 +17,9 @@ Extract fields 2, 4, and 5 from file.txt:
 
     awk '{print $2,$4,$5}' input.txt
 
+Count number of columns in file.txt:
+
+    awk '{print NF; exit}' file.txt
 
 Print each line where the 5th field is equal to ‘abc123’:
 
