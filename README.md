@@ -50,6 +50,10 @@ Print rows where column 3 is larger than column 5 in file.txt:
 
     awk '$3>$5' file.txt
 
+'Unpivot' file.csv data. Second column delimited by |, create one row per value; 
+insert new values from column 2 to the end (column 5).
+
+    awk '{n=split($2,s,"|");for (i=1;i<=n;i++) {$5=s[i];print}}' file.csv
 
 Sum column 1 of file.txt:
 
