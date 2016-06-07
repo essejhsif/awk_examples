@@ -48,6 +48,9 @@ Get unique entries in file.txt based on column 2 (takes only the first instance)
 
     awk '!arr[$2]++' file.txt
 
+Remove duplicate entries in a file, without sorting:
+
+    awk ‘!x[$0]++’ <file>
 
 Print rows where column 3 is larger than column 5 in file.txt:
 
